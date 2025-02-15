@@ -1,0 +1,751 @@
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            font-family: Lato;
+            /* outline: 1px solid red; */
+        }
+        
+        .center {
+            padding-left: 10vw;
+            padding-right: 10vw;
+        }
+        
+        .header {
+            /* Rectangle 25 */
+            width: 100vw;
+            height: 75px;
+            left: 0;
+            top: 0;
+            background: rgb(34, 34, 34);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .logocontainer {
+            padding-left: 0;
+            padding-right: 0;
+            width: 50vw;
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        
+        .boldbrand {
+            font-family: Lato;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 0px;
+            letter-spacing: 0%;
+            text-align: left;
+            color: rgb(34, 34, 34);
+        }
+        
+        .lux {
+            font-family: Lato;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 0px;
+            letter-spacing: 0%;
+            text-align: left;
+            color: rgb(34, 34, 34);
+        }
+        
+        .pink {
+            font-family: Lato;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 0px;
+            letter-spacing: 0%;
+            text-align: left;
+            color: rgb(241, 109, 127);
+        }
+        
+        .rectangle {
+            padding-left: 63px;
+            img {
+                height: 6.5vw;
+                width: auto;
+            }
+            object-fit: cover;
+            position: absolute;
+        }
+        
+        .mainlogotype {
+            padding-top: 10px;
+            padding-left: 7vw;
+            width: 70%;
+        }
+        
+        .par {
+            margin-left: 70vw;
+        }
+        
+        .headerimg1 {
+            margin-left: 100px;
+            margin-right: 30px;
+            width: 40px;
+            height: 40px;
+            left: 231px;
+            top: 18px;
+        }
+        
+        .headerimg {
+            margin-right: 30px;
+            width: 40px;
+            height: 40px;
+            left: 231px;
+            top: 18px;
+        }
+        
+        .prebody {
+            display: grid;
+            grid-template-columns: 50vw 50vw;
+            width: 100vw;
+            height: 600px;
+            top: 75px;
+            background: rgb(241, 228, 230);
+        }
+        
+        .imgplace {
+            width: 50vw;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .mainlogoplace {
+            width: 50vw;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .categories {
+            padding-top: 65px;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            display: grid;
+            grid-template-columns: repeat(3, 25vw);
+            grid-template-rows: 17.5vw 12vw;
+            gap: 30px;
+        }
+        
+        .item {
+            width: 25.0vw;
+            height: 17.5vw;
+        }
+        
+        .item1 {
+            display: inline-grid;
+            background-image: url(img/forwom.png);
+            background-size: contain;
+        }
+        
+        .item2 {
+            display: inline-grid;
+            background-image: url(img/formen.jpeg);
+            background-size: contain;
+        }
+        
+        .item3 {
+            display: inline-grid;
+            background-image: url(img/forkids.png);
+            background-size: contain;
+        }
+        
+        .item4 {
+            height: 12vw;
+            width: calc(75vw + 60px);
+            display: inline-grid;
+            grid-column: 1 / 4;
+            background-image: url(img/acc.png);
+            background-size: contain;
+        }
+        
+        .fetureditemscont {
+            padding-top: 96px;
+            width: 80vw;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .fetheader {
+            text-align: center;
+            width: 30vw;
+            height: auto;
+        }
+        
+        .fetureditems {
+            padding-top: 48px;
+            height: auto;
+            justify-content: center;
+            align-items: flex-start;
+            display: grid;
+            grid-template-columns: repeat(3, 25vw);
+            grid-template-rows: 40vw 40vw;
+            gap: 30px;
+        }
+        
+        .imgcardplace {
+            padding: 0;
+            margin-bottom: 0;
+        }
+        
+        .bitem {
+            img {
+                width: 25vw;
+                height: 29vw;
+            }
+            h2 {
+                padding-bottom: 15px;
+            }
+            p {
+                padding-bottom: 15px;
+            }
+            width: 25vw;
+            height: 40vw;
+            display: inline-grid;
+            background-color: rgb(248, 248, 248);
+        }
+        
+        .textcardplace {
+            justify-content: flex-start;
+            align-items: center;
+            h2 {
+                padding-left: 16px;
+                color: rgb(0, 0, 0);
+                font-family: Lato;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            .lore {
+                padding-left: 16px;
+                color: rgb(93, 93, 93);
+                font-family: Lato;
+                font-size: 12px;
+                font-weight: 300;
+                line-height: 17px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            .cost {
+                padding-left: 16px;
+                color: rgb(241, 109, 127);
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 19px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+        
+        .fetheader {
+            h2 {
+                color: rgb(34, 34, 34);
+                font-family: Lato;
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 36px;
+                letter-spacing: 0%;
+            }
+            p {
+                color: rgb(159, 159, 159);
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 17px;
+                letter-spacing: 0%;
+            }
+        }
+        
+        .btn {
+            border: 1px solid rgb(255, 106, 106);
+            color: rgb(242, 99, 118);
+            background-color: white;
+            margin-left: 42.5vw;
+            margin-right: 42.5vw;
+            position: absolute;
+            width: 15vw;
+            height: 48px;
+            margin-top: 50px;
+        }
+        
+        .pluses {
+            margin-top: 150px;
+            background: rgb(34, 34, 36);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .plitem {
+            color: rgb(251, 251, 251);
+            width: 19vw;
+            text-align: center;
+            padding-right: 50px;
+            padding-left: 50px;
+            padding-bottom: 50px;
+            img {
+                margin-top: 50px;
+            }
+            h3 {
+                font-weight: 400;
+                padding-top: 20px;
+                padding-bottom: 10px;
+            }
+            p {
+                font-weight: 300;
+            }
+        }
+        
+        .review {
+            flex-wrap: wrap;
+            height: 45vh;
+            background-position: center;
+            background-size: cover;
+            background-image: url(img/footerbg.jpeg);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .ritem1 {
+            width: 40vw;
+            text-align: center;
+        }
+        
+        .ritem2 {
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 40vw;
+            text-align: center;
+            h3 {
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        
+        .subsc {
+            font-weight: 700;
+        }
+        
+        .formplace {
+            margin-top: 50px;
+            display: flex;
+            justify-content: flex-start;
+            gap: 0;
+            align-items: center;
+        }
+        
+        .emailform {
+            width: 10px;
+            height: 50px;
+            width: 280px;
+            border-color: transparent;
+            border-radius: 20px 0px 0px 20px;
+        }
+        
+        .btnform {
+            color: rgb(251, 251, 251);
+            width: 90px;
+            height: 54px;
+            background-color: rgb(241, 109, 127);
+            border-color: transparent;
+            border-radius: 0px 20px 20px 0px;
+        }
+        
+        .footer {
+            color: rgb(251, 251, 251);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 55vw;
+            height: 10vh;
+            background-color: rgb(34, 34, 36);
+        }
+        
+        .fitem3 {
+            display: none;
+        }
+        
+        .inst2 {
+            display: none;
+        }
+        
+        @media(min-width:320px) and (max-width:767px) {
+            .headerimg {
+                margin-left: 0;
+                margin-right: 0;
+                height: 30px;
+                width: 35px;
+            }
+            .headerimg1 {
+                margin-left: 5vw;
+                margin-right: 0;
+                height: 30px;
+                width: 35px;
+            }
+            .buybox {
+                display: none
+            }
+            .profile {
+                display: none;
+            }
+            .center {
+                /* padding-left: 2vw;
+                padding-right: 2vw; */
+                padding-left: 0;
+                padding-right: 0;
+                margin-left: 2vw;
+                margin-right: 2vw;
+            }
+            .search {
+                margin-left: 15vw;
+            }
+            .par {
+                margin-right: 0;
+                margin-left: 45vw;
+            }
+            .header {
+                width: 100vw;
+                height: 50px;
+            }
+            .prebody {
+                width: 100vw;
+                height: 100vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .imgplace {
+                display: none;
+            }
+            .logocontainer {
+                width: 90vw;
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+            .boldbrand {
+                font-family: Lato;
+                font-size: 35px;
+                font-weight: 900;
+                line-height: 0px;
+                letter-spacing: 0%;
+                text-align: left;
+                color: rgb(34, 34, 34);
+            }
+            .lux {
+                font-family: Lato;
+                font-size: 18px;
+                /* font-size: calc(18px - 320px + 100.1vw); */
+                font-weight: 700;
+                line-height: 0px;
+                letter-spacing: 0%;
+                text-align: left;
+                color: rgb(34, 34, 34);
+            }
+            .pink {
+                font-family: Lato;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 0px;
+                letter-spacing: 0%;
+                text-align: left;
+                color: rgb(241, 109, 127);
+            }
+            .rectangle {
+                padding-left: 4vw;
+                img {
+                    height: 20vw;
+                    width: auto;
+                }
+                object-fit: cover;
+                position: absolute;
+            }
+            .mainlogotype {
+                padding-top: 10px;
+                padding-left: 12vw;
+                width: 70%;
+            }
+            .mainlogoplace {
+                display: flex;
+                justify-content: center;
+                /* img {
+                    width: 80vw;
+                    height: auto;
+                } */
+                width: 100vw;
+                object-fit: cover;
+            }
+            /* выше менять не надо уже */
+            .categories {
+                width: 96vw;
+                padding-top: 65px;
+                height: auto;
+                justify-content: center;
+                align-items: center;
+                display: grid;
+                grid-auto-flow: column;
+                grid-template-columns: auto;
+                grid-template-rows: repeat(3, 70vw) 31vw;
+                row-gap: 30px;
+                column-gap: 0px;
+            }
+            .item {
+                width: 90vw;
+                height: 70vw;
+                background-position: center;
+                background-size: cover;
+            }
+            .item4 {
+                width: 90vw;
+                height: 31vw;
+                display: inline-grid;
+                /* grid-column: 1 / 4; */
+                grid-row: 4;
+                background-size: cover;
+            }
+            /* выше сделано */
+            .fetureditemscont {
+                padding-top: 96px;
+                width: 96vw;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .fetheader {
+                width: 90vw;
+            }
+            .fetureditems {
+                width: 96vw;
+                padding-top: 48px;
+                height: auto;
+                justify-content: center;
+                align-items: flex-start;
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: repeat(6, 150vw);
+                row-gap: 30px;
+                column-gap: 0px;
+            }
+            .bitem {
+                img {
+                    width: 90vw;
+                    height: 106vw;
+                }
+                width: 90vw;
+                height: 150vw;
+                display: inline-grid;
+                background-color: rgb(248, 248, 248);
+            }
+            .textcardplace {
+                padding-top: 20px;
+                height: auto;
+                justify-content: flex-start;
+                align-items: center;
+                h2 {
+                    font-size: 16px;
+                }
+                .lore {
+                    font-size: 16px;
+                }
+                .cost {
+                    font-size: 19px;
+                }
+            }
+            .btn {
+                width: 45vw;
+                margin-bottom: 200px;
+                margin-left: calc(27.5vw - 1px);
+                margin-right: calc(27.5vw - 1px);
+                position: absolute;
+                height: 48px;
+                margin-top: 50px;
+            }
+            .review {
+                height: 60vh;
+            }
+            .plitem {
+                width: 50vw;
+            }
+            .ritem1 {
+                width: 90vw;
+            }
+            .ritem2 {
+                h3 {
+                    font-size: 16px;
+                }
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 85vw;
+            }
+            .woman {
+                margin-bottom: 30px;
+            }
+            .footer {
+                justify-content: space-around;
+                align-items: center;
+                height: 15vh;
+                flex-direction: column;
+                gap: 0.5vh;
+                flex-wrap: wrap;
+            }
+            .inst {
+                display: none;
+            }
+            .inst2 {
+                display: inline-flex;
+            }
+            .review {
+                justify-content: center;
+            }
+            .formplace {
+                width: 80vw;
+            }
+            .emailform {
+                width: 60vw;
+                margin-left: 0;
+            }
+            .fitem1 {
+                display: none;
+            }
+            .fitem3 {
+                display: inline-flex;
+            }
+        }
+        
+        @media(min-width:768px) and (max-width:1024px) {
+            .center {
+                padding-left: 2vw;
+                padding-right: 2vw;
+            }
+            .header {
+                width: 100vw;
+            }
+            .par {
+                margin-left: 30vw;
+            }
+            .prebody {
+                width: 100vw;
+                height: auto;
+            }
+            .fetureditemscont {
+                padding-top: 96px;
+                width: 96vw;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .fetureditems {
+                padding-top: 48px;
+                height: auto;
+                justify-content: center;
+                align-items: flex-start;
+                display: grid;
+                grid-template-columns: repeat(2, calc(48vw - 15px));
+                grid-template-rows: 75vw 75vw 75vw;
+                gap: 30px;
+            }
+            .mainlogotype {
+                padding-top: 10px;
+                padding-left: 13vw;
+                width: 70%;
+            }
+            .bitem {
+                img {
+                    width: calc(48vw - 15px);
+                    height: 55vw;
+                }
+                width: calc(48vw - 15px);
+                height: 75vw;
+                display: inline-grid;
+                background-color: rgb(248, 248, 248);
+            }
+            .textcardplace {
+                height: auto;
+                justify-content: flex-start;
+                align-items: center;
+                h2 {
+                    font-size: 16px;
+                }
+                .lore {
+                    font-size: 16px;
+                }
+                .cost {
+                    font-size: 19px;
+                }
+            }
+            .categories {
+                padding-top: 65px;
+                height: auto;
+                justify-content: center;
+                align-items: center;
+                display: grid;
+                grid-template-columns: repeat(3, calc(32vw - 20px));
+                grid-template-rows: 21vw 15vw;
+                gap: 30px;
+            }
+            .item {
+                width: calc(32vw - 20px);
+                height: 21vw;
+            }
+            .item4 {
+                height: 15vw;
+                width: 96vw;
+                display: inline-grid;
+                grid-column: 1 / 4;
+                background-image: url(img/acc.png);
+                background-size: contain;
+            }
+            .btn {
+                width: 25vw;
+                margin-bottom: 200px;
+                margin-left: calc(35.5vw - 1px);
+                margin-right: calc(35.5vw - 1px);
+                position: absolute;
+                height: 48px;
+                margin-top: 50px;
+            }
+            .plitem {
+                width: 50vw;
+            }
+            .ritem1 {
+                width: 55vw;
+            }
+            .ritem2 {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 55vw;
+            }
+            .woman {
+                margin-bottom: 30px;
+            }
+            .footer {
+                gap: 40vw;
+            }
+            .inst {
+                display: none;
+            }
+            .inst2 {
+                display: inline-flex;
+            }
+        }
